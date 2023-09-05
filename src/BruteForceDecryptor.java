@@ -32,6 +32,7 @@ public class BruteForceDecryptor extends CryptOperations{
                     encryptedDataPosition = (dataPosition>=k)?(dataPosition-k):(CryptOperations.ALPHABET_SIZE-Math.abs(dataPosition-k));
                     resultData.append(CryptOperations.ALPHABET.charAt(encryptedDataPosition));
                 }
+                //check if result data is a valid text
                 if(isValidResult(resultData)){
                     writer.write(resultData.toString());
                     Thread.sleep(2000); //Intentionally holding off execution, as writing operation takes more time

@@ -17,10 +17,10 @@ public class CryptOperations {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return data;
     }
 
+    //creating unique postfixes for every new file in the directory regardless of how many times the program has run before
     protected static String getFilePostfix(){
         LocalDateTime now = LocalDateTime.now();
         DateTimeFormatter format = DateTimeFormatter.ofPattern(" dd-MM-yy HH-mm-ss");

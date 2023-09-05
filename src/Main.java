@@ -5,6 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         boolean isExit = false;
+        //text menu
         System.out.println("******** Caesar Encryptor ********");
         System.out.println("Enter 'ENCRYPT' to encrypt data");
         System.out.println("Enter 'DECRYPT' to decrypt data");
@@ -12,6 +13,7 @@ public class Main {
         System.out.println("Enter 'EXIT' to exit Caesar Encryptor");
         System.out.println("************************");
 
+        //operation choice
         try (Scanner scan = new Scanner(System.in)) {
             while (!isExit) {
                 System.out.println("Choose an operation: ");

@@ -19,7 +19,6 @@ public class Decryptor extends CryptOperations{
             resultFileName = "decryptedFile" + CryptOperations.getFilePostfix();
             decryptedFileName = Files.createFile(Paths.get(Path.of(filename).getParent().toString(), resultFileName));
         }catch (IOException e){
-
             e.printStackTrace();
         }
 
