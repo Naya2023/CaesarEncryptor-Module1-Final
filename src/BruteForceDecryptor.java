@@ -35,16 +35,13 @@ public class BruteForceDecryptor extends CryptOperations{
                 //check if result data is a valid text
                 if(isValidResult(resultData)){
                     writer.write(resultData.toString());
-                    //Thread.sleep(2000); //Intentionally holding off execution, as writing operation takes more time
                     break;
                 }
             }
             System.out.println("File got decrypted using Brute Force Method! See the result: "+ decryptedFileName);
         } catch (IOException e) {
             e.printStackTrace();
-        } //catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
+        }
     }
 
     private static boolean isValidResult(StringBuilder data){
