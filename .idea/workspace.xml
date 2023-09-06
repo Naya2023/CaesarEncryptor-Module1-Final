@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc687835-0234-4df3-8aca-4d0b2994853c" name="Changes" comment="Fourth Commit Message">
-      <change beforePath="$PROJECT_DIR$/src/BruteForceDecryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BruteForceDecryptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CryptOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CryptOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decryptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encryptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="dc687835-0234-4df3-8aca-4d0b2994853c" name="Changes" comment="Fifth Commit Message" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +65,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693969434966</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fifth Commit Message">
+      <created>1693972048313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693972048313</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fifth Commit Message">
+      <created>1693972231781</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693972231781</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +97,7 @@
     <MESSAGE value="Second Commit Message" />
     <MESSAGE value="Third Commit Message" />
     <MESSAGE value="Fourth Commit Message" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fourth Commit Message" />
+    <MESSAGE value="Fifth Commit Message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fifth Commit Message" />
   </component>
 </project>

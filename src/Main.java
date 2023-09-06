@@ -17,7 +17,6 @@ public class Main {
         //operation choice
         try (Scanner scan = new Scanner(System.in)) {
             while (!isExit) {
-                System.out.println(0);
                 System.out.println("Choose an operation: ");
                 String userInput = scan.next();
                 switch (userInput) {
@@ -33,11 +32,8 @@ public class Main {
                         decryptor.decrypt(getValidFileName(), enterKey);
                     }
                     case "BRUTE" -> {
-                        System.out.println(1);
                         BruteForceDecryptor brute = new BruteForceDecryptor();
-                        System.out.println(2);
                         brute.bruteForceDecrypt(getValidFileName());
-                        System.out.println(3);
                     }
                 }
             }
