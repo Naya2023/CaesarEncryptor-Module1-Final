@@ -6,7 +6,6 @@ import java.nio.file.Paths;
 
 public class Encryptor extends CryptOperations {
     private static final int KEY = 6;
-
     private static final String fileNameIndicator = "encryptedFile";
 
     public void encrypt(String filename) {
