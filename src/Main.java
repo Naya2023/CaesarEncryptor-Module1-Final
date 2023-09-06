@@ -1,6 +1,7 @@
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -47,7 +48,7 @@ public class Main {
     public static String getValidFileName() {
         String filename = "";
         Scanner scan = new Scanner(System.in);
-        while (true){
+        while (true) {
             System.out.println("Enter file path: ");
             filename = scan.nextLine();
             if (Files.exists(Path.of(filename))) {
